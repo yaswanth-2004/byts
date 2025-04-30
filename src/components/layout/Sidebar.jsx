@@ -34,6 +34,8 @@ const Sidebar = ({ open, setOpen }) => {
   const location = useLocation();
   const { getCategories } = useContent();
   const categories = getCategories();
+
+  //just for fun
   
   useEffect(() => {
     // Close sidebar when route changes on mobile
